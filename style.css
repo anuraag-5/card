@@ -53,9 +53,46 @@
     border-radius: 1vw;
     
 }
+.content{
+    color: white;
+    height: 80%;
+    position: relative;
+}
 
+.info{
+    position: absolute;
+    font-size: 75%;
+    color: rgba(255, 3, 3, 0.6);
+    top: 30px;
+}
 /* Responsive adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1184px) {
+    .title{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1116px) {
+    .title{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1018px) {
+    .title{
+        font-size: 12px;
+    }
+    .info{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 871px) {
+    .title{
+        font-size: 10px;
+    }
+    .info{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 769px) {
     .card {
         width: 90vw;
         height: auto;
@@ -66,6 +103,37 @@
     .duration {
         font-size: 10px;
         padding: 3px;
+    }
+    .content{
+        height:85px;
+    }
+    .title{
+        font-size: 12.5px;
+    }
+    .info{
+        font-size: 57%;
+    }
+}
+@media screen and (max-width: 629px) {
+    .content{
+        height:75px;
+    }
+    .title{
+        font-size: 9.5px;
+    }
+    .info{
+        font-size: 56%;
+    }
+}
+@media screen and (max-width: 551px) {
+    .content{
+        height:65px;
+    }
+    .title{
+        font-size: 9px;
+    }
+    .info{
+        font-size: 56%;
     }
 }
 
@@ -80,5 +148,73 @@
     .duration {
         font-size: 8px;
         padding: 2px;
+    }
+    .content{
+        height:55px;
+    }
+    .title{
+        font-size: 8.5px;
+    }
+    .info{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 387px) {
+    .content{
+        height:50px;
+    }
+    .title{
+        font-size: 8px;
+    }
+    .info{
+        font-size: 55%;
+    }
+}
+
+@media screen and (min-height: 1025px) {
+    .card {
+        width: 99vw;
+        height: auto;
+    }
+    .img {
+        width: 30%;
+    }
+    .duration {
+        font-size: 8px;
+        padding: 2px;
+    }
+    .content{
+        height:110px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .info{
+        font-size: 59%;
+        top : 44px;
+    }
+}
+
+@media screen and (min-height: 1280px) {
+    .card {
+        width: 99vw;
+        height: auto;
+    }
+    .img {
+        width: 30%;
+    }
+    .duration {
+        font-size: 8px;
+        padding: 2px;
+    }
+    .content{
+        height:160px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    .info{
+        font-size: 59%;
+        top : 48px;
     }
 }
